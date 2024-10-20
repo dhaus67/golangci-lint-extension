@@ -1,0 +1,11 @@
+id = "golangci-lint"
+name = "golangci-lint"
+version = "0.0.1"
+schema_version = 1
+authors = ["Daniel Haus <haus.daniel@gmx.net>"]
+description = "Support for golangci-lint"
+repository = "https://github.com/dhaus67/golangci-lint-extension"
+
+[language_servers.golangci-lint]
+name = "golangci-lint"
+languages = ["Go"]
