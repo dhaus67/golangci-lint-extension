@@ -4,6 +4,8 @@ A [Zed extension](https://zed.dev/docs/extensions) which adds support for [golan
 
 The extension is based on [golangci-lint-langserver](https://github.com/nametake/golangci-lint-langserver).
 
+The extension is currently **not** in the extension store, but will be added at some point. Until then, it needs to be installed via [the dev extensions flow](https://zed.dev/docs/extensions/developing-extensions#developing-an-extension-locally).
+
 ## Configuration in Zed
 
 The default configuration which uses all linters in `golangci-lint` is:
@@ -44,3 +46,10 @@ In case you have a `.golangci.yaml` config file present, you can use it as well 
   }
 }
 ```
+
+
+
+
+Things that are TODO:
+- [ ] Have the default command embedded within the extension.
+- [ ] A separate, optional setting for the `.golangci.yaml` file.
